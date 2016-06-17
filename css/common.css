@@ -1,0 +1,138 @@
+*  { color: #4d4d4d; font-style: normal; font-weight: normal; font-family: "‚l‚r ƒSƒVƒbƒN", "‚l‚r ‚oƒSƒVƒbƒN", Osaka-“™•, Osaka, •½¬ŠpƒSƒVƒbƒN; margin: 0px; padding: 0px }
+body {
+  font-size: 75%; /* IE */
+}
+html>/**/body {
+  font-size: 12px; /* Except IE */
+}
+body  { background:white url(../images/bkimg.jpg) repeat-y center; text-align: center; }
+a { color: #00c; text-decoration: underline }
+a:hover { color: #00f; text-decoration: none }
+#wrap    { text-align: left; margin-right: auto; margin-left: auto; width: 760px } 
+
+/*--h2  { text-align: right; padding-right: 16px }
+h2 a   { color: #ccc; font-weight: normal; font-size: 10px; text-decoration: none }
+h2 a:hover  { color: #ccc; font-weight: normal; font-size: 10px; text-decoration: none }--*/
+
+/* ƒwƒbƒ_ƒGƒŠƒA */
+#head { padding-top: 16px; border-top: 4px solid #000138 }
+#head th   { text-align: left; padding-left: 20px; width: 300px }
+#head td  { text-align: right; padding-right: 16px; width: 460px }
+#tel   { color: #559138; font-weight: bold; font-size: 1.4em; background: url(../images/tel.jpg) no-repeat left center; padding-left: 25px }
+#form a { padding-left: 16px }
+#head th a  { color: #4d4d4d; font-weight: bold; font-size: 1.4em; text-decoration: none }
+
+/* ƒRƒ“ƒeƒ“ƒcƒGƒŠƒA */
+#cont { margin-top: 35px }
+#menu   { background-color: #eee; width: 190px }
+#main { padding-right: 16px; padding-left: 16px; }
+
+/* ƒTƒCƒhƒƒjƒ…[ */
+#menu dl dt { width: 190px; display: block }
+#menu dl dt a   { color: #4d4d4d; font-weight: bold; font-size: 1em; text-decoration: none; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; border-bottom: 1px solid #fff; border-left: 4px solid #e47e00; display: block }
+#menu dl dt a:hover    { color: #4d4d4d; font-weight: bold; font-size: 1em; text-decoration: none; background-color: #e8f6e4; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; border-bottom: 1px solid #fff; border-left: 4px solid #d66600; display: block }
+#menu address  { font-size: 0.8em; line-height: 150%; margin: 20px 16px; display: block }
+
+/* ƒƒCƒ“ */
+#news { margin-top: 16px }
+#news h3 { color: #559138; font-weight: bold; font-size: 1em; padding: 6px; border: solid 1px #999138 }
+#news_data { font-size: 1em; line-height: 150%; margin-top: 10px; height: 130px; overflow: auto }
+#item { margin-top: 16px }
+#item h3  { color: #559138; bgcolor="#fffacd"; font-weight: bold; font-size: 1em; margin-bottom: 10px; padding: 6px; border: solid 1px #999138 }
+.item_data   { float: left; padding-right: 16px; padding-bottom: 16px; width: 160px }
+.item_data p { font-size: 0.8em; line-height: 140%; margin-top: 8px }
+
+/* ‰º‘wƒy[ƒW‹¤’Ê */
+#ctitle{}
+#ctitle h3  { font-weight: bold; font-size: 1.4em; padding: 6px 6px 6px 10px; border-style: solid; border-width: 1px 1px 1px 4px; border-color: #9991388 }
+#lead { margin-top: 16px }
+#lead h4 { font-size: 1.2em; margin-bottom: 15px }
+#lead p { background-color:#fffacd; font-size: 1em; line-height: 150% }
+.img_r { float: right; padding-bottom: 10px; padding-left: 10px }
+
+/* Žæˆµ¤•iˆê—— */
+.item2_l { float: left; padding-top: 16px; width: 200px }
+.item2_r { float: right; padding-top: 16px; width: 318px }
+.item2_r table { border-top: 1px solid #ccc; border-left: 1px solid #ccc }
+.item2_r th, .item2_r td { font-size: 1em; line-height: 150%; padding: 3px; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc }
+
+/* ‰ïŽÐŠT—v */
+#profile table  { margin-top: 16px; border-top: 1px solid #ccc; border-left: 1px solid #ccc; width: 538px }
+#profile th, #profile td  { font-size: 1em; line-height: 150%; padding: 4px; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc }
+
+
+
+/* ƒRƒs[ƒ‰ƒCƒg */
+#copyright    { color: #ffffff; font-size: 0.8em; text-align: center; padding-top: 30px; padding-bottom: 20px }
+#copyright a  { color: #ffffff; text-decoration: none }
+#copyright a:hover  { color: #ffffff; text-decoration: none }
+
+.clear { clear: both }
+
+
+/*--20090318ADD--*/
+#wrap h2 a {
+	display:block;
+	background-image:url(../images/bkimg_muryohp.jpg);
+	background-repeat:no-repeat;
+	height:10px;
+	width:100px;
+	text-indent:-9999px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#wrap h3 a {
+	display:block;
+	background-image:url(../images/ico-toriaez_001.gif);
+	background-repeat:no-repeat;
+	height:9px;
+	width:13px;
+	text-indent:-9999px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+h6{
+	margin-left: 580px;
+	float :left;
+}
+
+/*------------------------------------------------------*/
+#footer{
+	background-color: #ff8686;
+	clear:right;
+}
+#namepic img{
+	text-align: left;
+	margin:20px 500px 10px;
+/*	float: left;*/
+}
+th{
+	background-color: #ff8686;
+}
+
+/*-------------------------------------------------------*/
+
+/*PR*/
+#pr {
+	padding:10px 8px 10px 8px;
+}
+#pr h4 {
+	background-color:#f7f7f7;
+	text-align:center;
+	color:#f7f7f7;
+	font-size:10px;
+	margin-bottom:4px;
+}
+#pr a {
+	color:#f7f7f7;
+	font-size:10px;
+}
+
+
+
+
+
